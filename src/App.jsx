@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import "./App.css";
 
 const choices = ["rock", "paper", "scissor"];
-const images = ["../public/rock.png","../public/paper.png","../public/scissor.png"]
+const images = ["/rock.png","/paper.png","/scissor.png"];
 function App() {
   const t = document.querySelector("#t");
   const opp = document.getElementById("opp");

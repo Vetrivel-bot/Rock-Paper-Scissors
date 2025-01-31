@@ -1,0 +1,84 @@
+#title{
+
+  text-align: center;
+  font-size: 1.6rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: oblique;
+}
+.choices{
+  display: flex;
+  justify-content: space-around;
+}
+.choice{
+    width: 300px;
+    height: 300px;
+    font-size: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    border-radius: 50%;
+
+  }
+
+.result{
+    text-align: center;
+    color: aliceblue;
+  }
+
+  #rock {
+    background-image: url("../public/rock.png");
+    background-size: cover; /* Ensures the image covers the button */
+    background-position: center;
+  }
+  #paper {
+    background-image: url("../public/paper.png");
+    background-size: cover; /* Ensures the image covers the button */
+    background-position: center;
+  }
+  
+  #scissor {
+    background-image: url("../public/scissor.png");
+    background-size: cover; /* Ensures the image covers the button */
+    background-position: center;
+  }
+  
+.box{
+  display: flex;
+  justify-content: center;
+}
+
+#t{
+  color: aliceblue;
+}
+
+#opp{
+
+  border-radius: 50%;
+  border: 6px #00b80300 solid;
+}
+
+@media screen and (max-width: 1000px) {
+  .choice {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .choice {
+    width: 150px;
+    height: 150px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .choice {
+    width: 150px;
+    height: 150px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .choice {
+    width: 100px;
+    height: 100px;
+  }
+}
+
